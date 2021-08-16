@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* Removendo propridades margin e padding padrão de navegadores */
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+div{
+	height: 100px;
+	width: 100px;
+}
+#alfa{
+	background-color: #ED3107;
+	position: absolute;
+	z-index:4;
+}
+#beta{
+	background-color: #1786EB;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	z-index:2;
+}
+#gama{
+	background-color: #07EB98;
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	z-index:3;
+}
+#delta{
+	background-color: #EB950C;
+	position: absolute;
+	top: 90px;
+	left: 90px;
+	z-index:1;
+}
+
+/*Top: determina a distância do elemento para o topo da página (no exemplo, o valor 0px indica que o elemento deve estar a uma distância de 0px do topo da página).
+Bottom: determina a distância do elemento para o rodapé da página (no exemplo, o valor 0px indica que o elemento deve estar a uma distância de 0px da parte inferior da página).
+Left: determina a distância do elemento para o lado esquerdo da página (no exemplo, o valor 0px indica que o elemento deve estar a uma distância de 0px do lado esquerdo).
+Right: determina a distância do elemento para o lado direito da página (no exemplo, o valor 0px indica que o elemento deve estar a uma distância de 0px do lado direito).
+*/

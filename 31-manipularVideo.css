@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* Arquivo estilo.css */
+
+ video{
+ /* borda*/
+    border:solid 1px #333;
+ /* distância de x | distância de -y | desfoque | cor */
+    box-shadow: 3px 3px 10px black;
+ }

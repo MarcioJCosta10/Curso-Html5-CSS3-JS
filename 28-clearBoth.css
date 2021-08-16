@@ -1,0 +1,42 @@
+@charset "UTF-8";
+div {
+
+    height:100px;
+    width:100px;
+    margin:10px;
+
+}
+
+#alfa{
+
+    background-color: #ED3107;
+    float:left;
+
+}
+
+#beta{
+
+    background-color: #1786EB;
+      float:left;
+
+}
+
+#gama{
+
+    background-color: #07EB98;
+    float:right;
+
+}
+
+#delta{
+
+    background-color: #EB950C;
+    float:right;
+
+}
+.linha{
+
+    width: 200px;
+    clear:both;
+
+}

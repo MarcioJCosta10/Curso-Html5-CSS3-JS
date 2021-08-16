@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* Arquivo estilo.css */
+
+/* Seletor universal */
+*{
+ margin:0;
+}
+/*propriedades das fontes*/
+p#propriedadeDasFontes{
+  /*Família das fontes*/
+  font-family: verdana;
+  /* Tamanho da fonte.*/
+  font-size: medium;
+  /*Estilo da fonte.*/
+  font-style: bold;
+  /*Altera a altura. da fonte e converte em maiúsculo*/
+  font-variant: small-caps;
+  /* “Peso da fonte” (variações de negrito).*/
+  font-weight: lighter;
+  /* Grau de expansão de glifos.*/
+  font-stretch: ultra-condensed;
+  /*Declaração abreviada de todas as propriedades apresentadas anteriormente.*/
+  font: italic small-caps bold 12px/30px Georgia, serif;
+}
+/* Parágrafos devem estar em cinza */
+p {
+  color: orange;
+}
+/* span em roxo */
+span{
+  color: purple;
+}
+/* texto em divs em laranja */
+div{
+  color: orange;
+}
+/* classes */
+.texto-verde{
+  color: green;
+  }
+
+  .texto-vermelho{
+    color: red;
+  }
+  /* IDs */
+  #azul{
+    color: blue;
+  }

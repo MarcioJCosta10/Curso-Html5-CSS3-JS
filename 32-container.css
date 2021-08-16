@@ -1,0 +1,15 @@
+@charset "UTF-8";
+video{
+  /* borda*/
+    border:solid 1px #333;
+  /* distância de x | distância de -y | desfoque | cor */
+    box-shadow: 3px 3px 10px black;
+  /* ocupando toda a página */
+    width: 100%;
+}
+
+/* delimita a posição do item */
+.container{
+    width: 960px;
+    margin: 20px auto;
+}

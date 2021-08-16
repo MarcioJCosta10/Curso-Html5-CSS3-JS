@@ -1,0 +1,35 @@
+@charset "UTF-8";
+div {
+
+    height:100px;
+    width:100px;
+
+}
+
+#alfa{
+
+    background-color: #ED3107;
+    float:left;
+
+}
+
+#beta{
+
+    background-color: #1786EB;
+    float:left;
+
+}
+
+#gama{
+
+    background-color: #07EB98;
+    float:left;
+
+}
+
+#delta{
+
+    background-color: #EB950C;
+    float:left;
+
+}

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body{
+
+  /* Cor de texto */
+    color:#ffffff; /* branco */
+
+    /* Cor de fundo */
+    background-color:#000000; /* preto */
+
+    /* Imagem de fundo */
+    background-image: url('imagen_fundo.png');
+    background-size: 100%;
+}
+/*
+background-color	Especifica a cor de fundo a ser usada.
+background-image	Especifica UMA ou MAIS imagens de fundo a serem usadas.
+background-position	Especifica a posição das imagens de fundo.
+background-size	Especifica o tamanho das imagens de fundo.
+background-repeat	Especifica se as imagens deverão ser repetidas.
+background-origin	Especifica a área de posicionamento das imagens de fundo.
+background-clip	Especifica a área de pintura das imagens de fundo.
+background-attachment	Especifica se as imagens de fundo são fixas ou rolam com o resto da página.
+background	Propriedade genérica que permite a inserção de todas as propriedades listadas anteriormente.
+*/

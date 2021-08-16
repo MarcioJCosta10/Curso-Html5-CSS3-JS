@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* Arquivo estilo.css */
+div{
+  border: 1px dashed #000;
+  /* Todas margens iguais */
+  margin: 10px;
+  /* Margens internas */
+  padding: 10px;
+
+}
+p{
+  border:2px solid #999;
+  /* Margens superior, direita, inferior e esquerda */
+  margin: 5px 0 10px 0;
+}
+
+
+/* Margem superior
+margin-top: 10px;
+*/
+
+/* Margem inferior
+margin-bottom: 10px;
+*/
+/* Margem esquerda
+margin-left: 10px;
+*/
+/* Margem direita
+margin-right: 10px;
+*/
+
+/* Margens internas */
+/*Padding superior
+padding-top: 10px;
+*/
+/* Padding inferior
+padding-bottom: 10px;
+*/
+/* Padding esquerdo
+padding-left: 10px;
+*/
+/* Padding direito
+padding-right: 10px;
+*/
+
+/*PROPRIEDADES DE LARGURA E ALTURA*/
+
+/* Altura
+height: 200px;
+*/
+
+/* Altura máxima
+max-height: 300px;
+*/
+
+/* Altura mínima
+min-height: 100px;
+*/
+/* Largura
+width: 800px;
+*/
+/* Largura máxima
+max-width: 1000px;
+*/
+/* Largura mínima
+width: 800px;
+*/

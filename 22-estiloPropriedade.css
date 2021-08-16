@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+p{
+  font-family: "helvetica","arial" ;
+}
+.pesada {
+  font-weight: bolder;
+}
+.leve {
+  font-weight: lighter;
+
+}
+.italico{
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+.variant{
+  font-variant: small-caps;
+
+}
+.condensado{
+  font-stretch: ultra-condensed;
+}

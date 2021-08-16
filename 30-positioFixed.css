@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* Arquivo estilo.css */
+
+div{
+
+      height: 100px;
+      width: 100px;
+
+}
+
+/* aplicamos algumas configurações de estilo para deixar o texto na página maior */
+
+span{
+
+      color: #777;
+      font-size: 20px;
+      line-height: 25px;
+
+}
+
+/* Veja que alfa deve ser colocada à esquerda do topo */
+
+#alfa{
+
+      background-color: #ED3107;
+      position:fixed;
+      top: 0px;
+      left: 0px;
+
+}
+
+/* beta deve ser colocada à direita do rodapé */
+
+#beta{
+
+      background-color: #1786EB;
+      position:fixed;
+      right: 0px;
+      bottom: 0px;
+
+}
+
+/* gama deve ser colocada à direita do topo */
+
+#gama{
+
+      background-color: #07EB98;
+      position:fixed;
+      right: 0px;
+      top: 0px;
+
+}
+
+/* delta deve ser colocada à esquerda do rodapé */
+
+#delta{
+
+      background-color: #EB950C;
+      position:fixed;
+      left: 0px;
+      bottom: 0px;
+
+}

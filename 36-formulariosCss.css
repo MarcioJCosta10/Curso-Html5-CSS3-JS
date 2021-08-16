@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/*
+Arquivo: estilo.css
+Autor: Diego Mariano
+Códigos de cores foram obtidos em: https://color.adobe.com/pt/create/color-wheel
+*/
+
+
+body{
+	font-family: "helvetica", "arial narrow", "arial"; /*  */
+	color:#111; /* cor de texto: variante da cor preta; */
+}
+
+input{
+	width: calc(100% - 20px); /* calc determina o tamanho máximo - 20px (padding) */
+	padding:10px; /* 10px de margem interna */
+}
+
+textarea{
+	width: calc(100% - 20px); /* calc determina o tamanho máximo - 20px (padding) */
+	padding: 10px; /* 10px de margem interna */
+}
+
+
+/* ------------------------- Classes ------------------------- */
+.container{
+	width: 960px; /* largura fixa de 960px */
+	margin:0 auto;/* margem automática nos lados esquerdo e direito */
+}
+
+.botao-enviar{
+	background-color: #02B81A; /* cor de fundo: variaçãode verde claro; */
+	border: solid 1px #016B0F; /* cor de borda: variação de verde escuro; */
+	color:white; /* cor de texto: branco; */
+	padding: 20px; /* margem interna: 20px; */
+	width: 100%; /* largura: 100%; */
+}
+
+.linha{
+	margin:10px 0 20px 0; /* margem topo 10px e para o rodapé de 20px */
+}

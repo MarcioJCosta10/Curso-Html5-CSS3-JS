@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulários</title>
+  </head>
+  <body>
+    <h3>Aqui temos um exemplo do select </h3>
+    <form
+    name="meu_primeiro_formulario"
+    method="POST"
+    action="gravaDados.php"
+    enctype="multipart/form-data">
+
+    <label> Dias da Semana</label>
+    <select name="dias_da_semana" >
+        <option value="segunda">Segunda-feira</option>
+        <option value="terca">Teça-feira</option>
+        <option value="quarta">Quarta-feira</option>
+        <option value="quinta">Quinta-feira</option>
+        <option value="sexta">Sexta-feira</option>
+        <option value="sabado">Sábado</option>
+        <option value="domigo">Domingo</option>
+
+    </select>
+    <br>
+    <h3>Aqui temos um exemplo do textarea </h3>
+    <label> Digite sua mensagem:</label><br>
+    <textarea rows="8" cols="80" placeholder="Digite sau mensagem"></textarea><br>
+    <br>
+      <h3>Aqui temos um exemplo do button </h3>
+    <button>Clique aqui</button>
+
+    </form>
+  </body>
+</html>

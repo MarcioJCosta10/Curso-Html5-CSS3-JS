@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fomulário de Contato</title>
+    <link rel="stylesheet" href="formularioContato.css">
+  </head>
+
+    <body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="container">
+      <div id="logo">
+        <a href="#">
+          <img src="logo.png" title="logo" alt="logo">
+        </a>
+      </div>
+
+      <nav>
+        <a href="#">Página inicial</a>
+        <a href="#">Quem somos</a>
+        <a href="#">Produtos</a>
+        <a href="#">Contato</a>
+      </nav>
+    </div>
+  </header>
+  <!-- Fim/Cabeçalho -->
+
+  <!-- Área do conteúdo principal -->
+  <main>
+
+    <div id="cabecalho-interno">
+      <div class="container">
+        <h1>Contato</h1>
+        <h5>Use o formulário abaixo para entrar em contato com nossos canais de atendimento</h5>
+      </div>
+    </div>
+
+    <article class="container">
+
+      <form method="post" action="contato.php">
+        <div class="linha">
+          <label>Nome completo</label><br>
+          <input type="text" name="nome" size="50" placeholder="Entre com o seu Nome Completo">
+        </div>
+
+        <div class="linha">
+          <div class="coluna">
+            <label>E-mail</label>
+            <input type="email" name="email" placeholder="Entre com o seu E-mail">
+          </div>
+          <div class="coluna">
+            <label>Telefone</label>
+            <input type="email" name="number" placeholder="Entre com o seu telefone">
+          </div>
+          <div style="clear:both"></div> <!-- Esta div foi necessária para impedir o colapso da div abaixo -->
+
+        <div class="linha">
+          <label>Assunto</label>
+          <input type="text" name="assunto" size="50" placeholder="Informe o assunto">
+        </div>
+
+        <div class="linha">
+          <label>Mensagem</label>
+          <textarea name="mensagem" placeholder="Entre com a mensagem" rows="5" cols="50"></textarea>
+        </div>
+
+        <div class="linha">
+          <input type="submit" name="submit" value="Enviar" class="botao-enviar">
+        </div>
+
+      </form>
+
+    </article>
+  </main>
+  <!-- Fim/Área do conteúdo principal -->
+
+  <!-- Rodapé -->
+  <footer>
+    ©2021 | Todos os direitos reservados.
+  </footer>
+  <!—Fim/Rodapé -->
+
+</body>
+
+
+</html>
